@@ -1,0 +1,162 @@
+<!Doctype html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Matthews Funeral</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="mathews-images/Logo.jpeg" alt="Mathews Funerals & Tombstones Logo">
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+          ☰
+        </div>
+        
+        <nav>
+            <ul class="nav-item" id="nav-menu">
+                <div class="close-btn" id="close-btn">X</div>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="cover.html">COVER PLANS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="services-section">
+      <div class="container">
+        <h2 class="section-title">Our Services for <span>Your Loved Ones</span></h2>
+        
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="icon-circle">🕊️</div>
+            <h3>Traditional Burial</h3>
+            <p>A dignified setting to honor a lifetime. We handle every detail from casket selection to the graveside service with absolute grace.</p>
+          </div>
+
+        <div class="service-card">
+          <div class="icon-circle">🚐</div>
+          <h3>Dignified Transportation</h3>
+          <p>Safe and respectful transfer of your loved one from the place of passing to our care, within 50km radius.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon-circle">📝</div>
+          <h3>Guidance & Support</h3>
+          <p>We walk beside you, assisting with legal paperwork, obituaries, and all the small details.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon-circle">🛡️</div>
+          <h3>Pre-Planning</h3>
+          <p>We help you make informed decisions about your funeral arrangements in advance, ensuring your wishes are honoured.</p>
+        </div>
+      </div>
+
+      <div class="cta-container">
+        <a href="cover.html" class="button-wrapper">
+          <button class="funeral-cta">Plan Ahead</button>
+        </a>
+      </div>
+    </section>
+    <section class="catalogue">
+      <h2>Tombstones Sale</h2>
+      <div class="catalogue-intro">
+          <div class="tombstones-container">
+              <p>
+                  At Mathews Funerals and Tombstones, we offer a wide range of beautifully crafted 
+                  tombstones designed to honour your loved one’s memory. 
+                  Each memorial is created with quality materials and attention to detail.
+              </p>
+          </div>
+      </div>
+
+      <p>View our wide range of quality tombstones.</p>
+      <a href="https://wa.me/c/27636349700" class="btn">View Tombstone Catalogue</a>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Mathews Funerals</h3>
+                <p>Providing dignity, compassion, and meaningful services to local families since 2011.</p>
+                <div class="socials-icons">
+                    <a href="https://wa.me/c/27636349700" target="_blank"><i class="fab fa-whatsapp"></i></a> <a href="https://www.facebook.com/p/Mathews-Funerals-and-Tombstones-100063576084441" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="cover.html">Cover Plans</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="cover.html">Funeral Cover</a></li>
+                    <li><a href="services.html">Tombstones</a></li>
+                    <li><a href="cover.html">Grocery Benefits</a></li>
+                    <li><a href="services.html">Repatriation</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>📍 34 EXT 2, M17 road, Soshanguve South, Pretoria, South Africa, 0152</p>
+                <p>📞 076 722 8138</p>
+                <p>✉️ marianeditsheg@gmal.com</p>
+                <p><strong>Joining Fee: R150</strong></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mathews Funerals and Tombstones. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuToggle = document.getElementById("menu-toggle");
+            const navMenu = document.getElementById("nav-menu");
+            const closeBtn = document.getElementById("close-btn");
+
+            menuToggle.addEventListener("click", () => {
+                navMenu.classList.add("active");
+            });
+
+            closeBtn.addEventListener("click", () => {
+                navMenu.classList.remove("active");
+            });
+
+            menuToggle.addEventListener("click", () => {
+                navMenu.classList.add("active");
+                menuToggle.style.display = "none";
+            });
+
+            closeBtn.addEventListener("click", () => {
+                navMenu.classList.remove("active");
+                menuToggle.style.display = "block";
+            });
+
+        });
+    </script>
+
+</body>
+</html>
